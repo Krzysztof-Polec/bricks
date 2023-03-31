@@ -19,7 +19,23 @@ body {
   background-color: #121212;
 }
 
-canvas {
+body h1 {
+  display: none;
+  color: #754db8;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+body canvas {
   border: 3px solid #754db8;
+}
+
+@media (max-width: 540px) {
+  h1 {
+    display: block !important;
+  }
+  canvas {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
